@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />	
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>FED band-website-project</title>
+    <title>image-test</title>
 </head>
 <body>
     <!---logo image-------->
@@ -80,35 +80,25 @@
 		</div>
 	</section> 
    <!-------------footer section Call to actions for bookings and informations------------------------->        
-    <footer class="container-fluid">
-        <div class="row ">
-            <div class="col-sm-6">
-                <h3 class="uppercase general-request">Available for Hire</h3>
-                    <p class="available">Book The Monkees for christmas parties, birthdays, festivals, etc.</p>  
-					<div class="request"><a href="contact.html"><button type="button" class="btn btn-default btn-lg btn btn-success">Go to Booking form</button></a></div>
-            </div>
-             <div class="col-sm-6">
-                <h3 class="uppercase general-request">Keep in touch</h3>
-                <p class="information">Buy merchandise, hear about new releases, upcoming events and more.</p> 
-				<div class="request"><a href="contact.html#info1link"><button type="button"  class="btn btn-default btn-lg btn btn-info"> Go to Info form</button></a></div>
-              </div>
-		</div>
-		<div class="row">
-             <div class="col-sm-12 col">
-                <h4 class="follow-request">The Monkees on social media</h4>
+     <section class="audio-container">
+    	<div class="audio-header uppercase"><h1>Listen to some Classic Audio Tunes</h1></div>
+			<div class="row audio-files">
+				<div class="col-sm-3">
+					<div class="audio-file">
+							<img src="./assets/images/cover1a.jpg" class="responsive cover1a">
+							<div>
+								<audio controls controlslist="nodownload">
+									<source src="./assets/media/Clarksville.mp3" type="audio/mpeg">
+									<source src=./assets/"media/Clarksville.ogg" type="audio/ogg">
+										Your browser does not support the audio element.
+								</audio>
+							</div>
+								<div class="audio-title">
+									<h4 class="text-center">Last Train to Clarksville-The Monkees</h4>
+								</div>
+					</div>
+				</div>	
 			</div>
-		</div>
-<!-------Social media links------------------------------------------->		
-		<div class="row">
-			<div class="col-sm-12">
-                <ul class="list-inline clearfix social-links text-center">
-                    <li><a target="_blank" href="../assets/pdfs/soc-link.pdf"><i class="fa fa-facebook"aria-hidden="true"></i><span> Join Us</span></a></li>
-                    <li><a target="_blank" href="../assets/pdfs/soc-link.pdf"><i class="fa fa-twitter" aria-hidden="true"></i><span> Follow Us</span></a></li>
-                    <li><a target="_blank" href="../assets/pdfs/soc-link.pdf"><i class="fa fa-youtube" aria-hidden="true"></i><span> Watch Us</span></a></li>
-                </ul>
-			</div>
-        </div>
-    </footer>
-    
+        </section>
 </body>
 </html>
