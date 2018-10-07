@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower 100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+body  {
+    background-color: rgba(255,255,204,0.2);
+}
+/*------general Styles ----------*/
+h3 {
+		font-family: "Roboto", sans-serif;
+		font-weight: 600;
+		font-size: 1.5em;
+		color: #880000;
+	}
+h4 {
+		font-family: "Exo", sans-serif;
+		font-weight: 500;
+		font-size: 1.2em;
+		color: #880000;
+	}
+h5 {
+		font-family: "Exo", sans-serif;
+		font-weight: 500;
+		font-size: 1.0em;
+		color: #880000;
+	}
+	
+.uppercase {
+	text-transform: uppercase;
+}
+.inline-block {
+	display: inline-block;
+}
+/*-------------------heading-------------*/
+header {
+    margin: 25px 0px;
+	 background-color: rgba(255,255,204,0.0);
+}
+
+.heading {
+    margin-left: 15px;
+}
+
+/*Image hover effect   */
+
+.center-block {
+   display: block;
+   margin: auto; 
+}
+
+.logo-img {
+	margin-top: 40px;
+	opacity: 0.7;
+}
+
+.hovereffect img {
+    transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+.hovereffect:hover img {
+     -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);    
+}  
+/*-----heading styles----*/
+
+.slogan1 {
+    font-family: "Indie Flower", cursive, sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 25px;
+	padding-right: 15px;
+	text-align: center;
+    color: rgb(255, 0, 0);
+	text-shadow: 4px 4px 4px #aaa;
+}
+.names {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 30px;
+	padding-right: 25px;
+    margin-bottom: 20px;
+	text-align: center;
+    color: rgb(128, 128, 128);
+}
+/*-------navigation items---------------------*/
+#nav {
+    margin: 0;
+}
+#nav li {
+    padding: 0;
+    font-family: "Exo", sans-serif;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem:hover {
+    background: rgba(122,179,184,0.2);
+}
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: 	#8B0000;
+    height: 120px;
+}
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #FF6347;
+    font-size: 26px;
+}
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+ /*---------home page mid section -------*/
+.brand2 {
+	padding-bottom: 25px;
+	background-color: rgba(255,255,204,0.2);
+}
+video {
+    max-width: 100%;
+    height: auto;
+	display: block;
+	position: relative;
+	margin: auto;
+	padding-top: 25px;
+   }
+.video-caption {
+	   text-align: center;
+	   font-family: "Roboto", sans-serif;
+	   color: #880000;
+	   padding-top: 5px;
+   }
+mark {
+       color:#880000;
+       font-weight: 500;
+   }
+   
+.years-sales {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+	text-align: center;
+    color: rgb(128, 128, 128);
+	margin-bottom: 25px;
+	margin-top: 25px;
+} 
+.slogan2 {
+    font-family: "Indie Flower", cursive, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 25px;
+	text-align: center;
+    color: rgb(255, 0, 0);
+	text-shadow: 4px 4px 4px #aaa;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	margin-bottom: 25px;
+}
+.btn-custom-2 {
+   background-color: rgba(255,255,204,0.4);
+    border: 2px solid gray;
+    padding: 8px;
+	letter-spacing: 1px;
+	font-family: "Exo", sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+    font-size: 100%;
+    margin: 15px auto;
+	width:250px;
+	height: 50px;
+    cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 5px 5px #aaa;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center; 
+
+}
+.text-color {
+	 color: #8B0000;
+}
+.btn-custom-2:hover { 
+	background-color: #F2F3F4;
+	text-decoration: none;
+	transition: all 0.1.5s ease-in-out;
+}
+.fa-format {
+	font-size: 20px;
+	color: red;
+}
+.fa-format:hover {
+	font-size: 20px;
+	color: #6495ED; 
+}
+.glyphicon-picture {
+	width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 1.0em;
+    line-height: 18px;
+    color: 	#fafafa;
+    background: #FF6347;
+	transition: all .1s ease-in-out;
+	 -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+ }
+ .glyphicon-picture:hover {
+	 background: #6495ED; 
+ }
+
+	/*--------footer----------*/
+footer {
+    background-color: rgba(255,255,204,0.0);
+    min-height: 120px;
+	margin: 0;
+}	
+.available, .information  {
+	font-family: "Exo", sans-serif;
+		font-weight: 500;
+		font-size: 1.2em;
+		text-align: center;
+}
+.general-request {
+		text-align: center;
+		margin-top: 50px;
+}
+.follow-request {
+		text-align: center;
+	}
+.btn-lg {
+		border-radius: 50%;
+		font-family: "Exo", sans-serif;
+		color: white;
+		font-weight: 500;
+}
+.request {
+    display: block;
+	text-align: center;
+}
+ li a {
+	color: #FF6347;
+	text-decoration: none;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 25px;
+    height:25px;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 1.0em;
+    line-height: 8px;
+    color: #fafafa;
+    background:  #FF6347;
+	margin-bottom: 50px;
+     -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+ .social-links li a i:hover {
+     background: #6495ED;
+ }
+ 
+ /*-----About Page  styles-------------*/
+ .about-the-band {
+     background-color: rgba(255,255,204,0.2);
+     padding: 0;
+     margin: 0;
+    
+ }
+ .background-info {
+	 margin: auto;
+	 display: flex;
+	 flex-wrap: wrap;
+	 
+ }
+ .pub-shot {
+     display: block;
+     margin: auto;
+ }
+.members {
+    flex: 1;
+	 text-align: center;
+	 padding-left: 25px;
+	 padding-top: 30px;
+	 padding-right: 25px;
+ }
+ figcaption {
+font-family: "Roboto", sans-serif;	 
+font-weight: 500;
+padding: 5px;
+ }
+ .btn-sm {
+	background-color: rgba(255,255,204,0.3);
+	color: 	#8B0000;
+    border: 2px solid gray; 
+    border: none;
+ }
+ .btn-sm:hover {
+     background-color: #e6e6e6;
+	 transition: all 1s ease-in-out;
+ }
+ 
+.about-band {
+	 padding-left: 25px;
+	 padding-right: 25px;
+}
+.description {
+    flex: 3;
+    flex-wrap: wrap;
+}
+.narrative1 {
+	font-family: "Roboto", sans-serif;	 
+	font-weight: 400;
+	color: #880000;
+}
+.fa-download {
+	width: 32px;
+    height: 32px;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    line-height: 14px;
+    color: #fafafa;
+    background:  #FF6347;
+     -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+.fa-download:hover {
+	background: #6495ED;
+}
+.download-wiki-pdf {
+	color: #FF6347;
+	text-align: center;
+}
+.download-text {
+	font-family: "Exo", sans-serif;	 
+	font-weight: 500;
+	color: #880000;
+	text-align: center;
+	padding-left: 2px;
+}
+/*   Audio files     */
+.audio-container {
+    padding: 25px;
+    margin: 0;
+    background-color: rgba(255,255,204,0.2);
+}
+.audio-header {
+	font-family: "Exo", sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color:#880000;
+	text-align: center;
+}
+
+.responsive {
+    height: 300px;
+    width: 300px;
+}
+.audio-file img{
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+    display: block;
+}	
+album {
+  padding-right: 25px;
+}
+
+audio {
+	 max-width: 300px;
+	 width: 100%;
+	 margin: auto;
+	 display: block;
+	 
+}
+.audio-title {
+	padding-bottom: 5px;
+}
+/*---------contact page styles----------------*/
+.bookinginfo {
+	  margin: auto;
+	   background-color: rgba(255,255,204,0.2);
+  }
+ 
+.infoheading, .bookingheading {
+	font-family: "Indie Flower", cursive, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+	text-align: center;
+    color: rgb(255, 0, 0);
+}
+.lead {
+     color: #880000;
+	 text-align: center;
+	 font-size: 1.5em;
+	 margin-right: 15px;	 
+}
+ .center-booking-form, .center-infoform {
+      margin: auto;
+      max-width: 80%;  
+}
+.band-image {
+    margin-top: 50px;
+}
+.soc-list {
+ list-style-type: none;
+ padding-left: 20px;
+  }
+.social-refs {
+	 display: block;
+	 margin: auto;
+  }
+  .soc-list li a:hover {
+      background-color: rgba(122,179,184,0.0);
+  }
+  /*------gallery page styles-------------*/
+  .gallery-items {
+      background-color: rgba(255,255,204,0.2);
+  }
+
+ .gallery-heading {
+	display: flex;
+	flex: 1;
+	font-family: "Exo", sans-serif;
+	font-size: 1.3em;
+	font-weight: 500;
+	color:#880000;
+	justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  min-height: 100%;
+  align-items: center;
+  justify-content:center;
+}
+.gal-image img {
+	width: 300px;
+	max-width: 100%;
+	height: auto;
+	padding: 15px;
+    
+}
+.image-title {
+	font-family: "Robotpo", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color:#880000;
+	text-align: center;
+}
+
+.social-links {
+	 padding-top: 25px;
+ }
+ .gall-foot {
+     background-color: rgba(255,255,204,0.0);
+ }
+/* contact page media query    */
+/* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
+@media screen and (min-width:767px) {
+.nav-bar {
+    display: block;
+    width: 33%;
+    margin: auto;
+}
+/*reduces form width to 70% on larger screen sizes*/
+.center-booking-form, .center-infoform {
+      margin: 0 auto;
+      max-width: 70%;  
+}
+}
